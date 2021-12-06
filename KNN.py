@@ -10,7 +10,7 @@ print("Dataset is split into training and testing...")
 print("Size of trainng data and its label",x_train.shape,y_train.shape)
 print("Size of trainng data and its label",x_test.shape, y_test.shape)
 
-for i in range(len(iris.target_names)): // classes 
+for i in range(len(iris.target_names)): # classes 
     print("Label", i , "-",str(iris.target_names[i]))
 
 
